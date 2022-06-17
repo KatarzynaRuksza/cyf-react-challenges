@@ -1,0 +1,109 @@
+body {
+  width: 80%;
+  margin-left: 10%;
+}
+h3 {
+  font-size: 30px;
+  font-weight: 700;
+  font-style: oblique;
+}
+.fav {
+  font-size: 28px;
+  font-weight: 400;
+  background-color: rgb(105, 163, 218);
+}
+.filter_search-container {
+  background: linear-gradient(
+    rgba(99, 29, 190, 0.722),
+    rgba(255, 192, 203, 0.677)
+  );
+  width: 100%;
+  height: 150px;
+}
+.chosen {
+  transform: translateY(20px);
+  transition: all 1s;
+}
+.boys_btn {
+  background-color: #1c975bb4;
+  font-size: 25px;
+  margin: 15px;
+  font-weight: 600;
+}
+.girls_btn {
+  background-color: rgba(139, 25, 122, 0.558);
+  font-size: 25px;
+  margin: 15px;
+  font-weight: 600;
+}
+.all_btn {
+  background-color: rgb(81, 122, 161);
+  font-size: 25px;
+  margin: 15px;
+  width: 90px;
+  font-weight: 600;
+}
+.bg-image {
+  background-image: url("../background.jpg");
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.female {
+  background-color: rgba(139, 25, 122, 0.558);
+}
+.male {
+  background-color: #1c975bb4;
+}
+.search-box {
+  width: 70%;
+  height: 50px;
+  background-color: rgba(139, 25, 122, 0.558);
+  border-color: #1c975bb4;
+  font-size: 25px;
+  border-style: groove;
+  border-width: 5px;
+  margin-top: 2%;
+}
+.App-content {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 5%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
