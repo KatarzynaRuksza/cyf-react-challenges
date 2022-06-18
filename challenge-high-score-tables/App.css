@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rubik+Moonrocks&display=swap");
+
+.App {
+  text-align: center;
+}
+.bg-img {
+  background-image: url("../styles/gamerbackground.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 110%;
+}
+h1 {
+  font-size: 60px;
+  font-family: "Rubik Moonrocks", sans-serif;
+  color: rgb(210, 194, 194);
+  text-align: left;
+  margin-left: 7%;
+}
+h2 {
+  font-size: 40px;
+  font-family: "Rubik Moonrocks", sans-serif;
+  color: rgb(210, 194, 194);
+  text-align: left;
+  margin-left: 15%;
+}
+button {
+  margin-left: -40%;
+  background-color: rgb(83, 27, 42);
+  padding: 20px 40px 20px 40px;
+  border-radius: 10%;
+  border-color: rgb(210, 194, 194);
+  border-width: 5px;
+  border-style: groove;
+  color: rgb(210, 194, 194);
+  font-family: "Press Start 2P", sans-serif;
+  font-size: 20px;
+}
+.list {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  border-width: 10px;
+  border-color: rgb(83, 27, 42);
+  border-style: groove;
+  width: 35%;
+  margin-left: 10%;
+  margin-bottom: 10px;
+  font-family: "Press Start 2P", sans-serif;
+  background-color: rgba(155, 169, 169, 0.7);
+}
+
+.name {
+  grid-column: 1;
+  font-size: 25px;
+  font-weight: 600;
+  margin: 5px;
+}
+.score {
+  grid-column: 2;
+  font-size: 25px;
+  font-weight: 600;
+  margin: 5px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #ffffff;
+  min-height: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(255, 255, 255);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
