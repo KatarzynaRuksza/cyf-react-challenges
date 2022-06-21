@@ -1,0 +1,117 @@
+.main {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 80%;
+  background: whitesmoke;
+  justify-content: space-around;
+}
+.countries {
+  display: flex;
+  flex-direction: column;
+  margin-top: -2rem;
+  border-style: solid;
+  background-color: whitesmoke;
+}
+.darkMode {
+  display: flex;
+  flex-direction: column;
+  margin-top: -2rem;
+  border-style: solid;
+  background: rgb(55, 55, 56);
+}
+.country-info {
+  display: flex;
+  flex-direction: column;
+  width: 22%;
+  background: rgb(255, 255, 255);
+  margin: 1%;
+  height: 24rem;
+  align-items: center;
+  border-radius: 5px;
+  border-radius: 0.5rem;
+}
+
+.country-info img {
+  width: 100%;
+  object-fit: cover;
+  height: 11rem;
+  border-top-left-radius: 0.4rem;
+  border-top-right-radius: 0.4rem;
+}
+/*.country-dark {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  background: rgb(55, 55, 56);
+  margin: 1%;
+  height: 10%;
+  align-items: center;
+  border-radius: 5px;
+}
+*/
+ul {
+  list-style-type: none;
+  padding: 3%;
+  align-self: start;
+  font-size: 16px;
+  margin: 3px;
+}
+li {
+  padding: 3px;
+}
+.input-search {
+  margin-left: 10%;
+  height: 2.8rem;
+  width: 30%;
+  border-radius: 0.4rem;
+  font-size: 20px;
+  font-weight: 900;
+}
+.select-search {
+  display: flex;
+  align-items: center;
+  height: 150px;
+  margin-top: 4rem;
+}
+::placeholder {
+  padding-left: 1%;
+  color: black;
+}
+select {
+  margin-left: 90rem;
+  margin-top: -6.5rem;
+  margin-bottom: 8rem;
+  height: 3rem;
+  width: 15rem;
+  font-weight: 900;
+  font-size: 20px;
+  border-radius: 0.4rem;
+  padding-left: 1.5rem;
+}
+h2 {
+  margin-left: 3rem;
+}
+h5 {
+  font-size: 20px;
+  align-self: start;
+  margin-left: 15px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  height: 5rem;
+  background: rgb(255, 255, 255);
+}
+button {
+  border-style: none;
+  background: rgb(255, 255, 255);
+  margin-right: 4rem;
+  font-size: 20px;
+  font-weight: 600;
+}
+.glass {
+  margin-left: -3%;
+}
